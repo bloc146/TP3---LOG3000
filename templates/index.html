@@ -37,11 +37,18 @@
 </div>
 
 <script>
+   /**
+    * Ajoute une valeur à l'écran de la calculatrice.
+    * @param {string} value : La valeur à ajouter (chiffre ou opérateur).
+    */
    function appendToDisplay(value) {
       const display = document.getElementById('display');
       display.value += value;
    }
 
+   /**
+    * Efface tout le contenu de l'écran.
+    */
    function clearDisplay() {
       document.getElementById('display').value = '';
    }
