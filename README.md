@@ -16,14 +16,16 @@ Avant de commencer, il faut avoir Python version 3.8 ou plus récent, pip pour i
 Installation:
 1.Commencez par cloner le dépôt avec la commande git clone https://github.com/bloc146/TP3---LOG3000.git
 2.Allez dans le dossier du projet avec cd TP3---LOG3000.
-3.Finalement, installez Flask avec la commande pip install flask.
+3.Finalement, installez Flask et pytest avec les commandes:
+% pip install flask 
+% pip install pytest
 
 Utilisation:
 1.Exécutez la commande python app.py. Le serveur démarre normalement à l’adresse http://127.0.0.1:5000
 2.Ouvrez un navigateur web et allez à cette adresse pour voir la calculatrice. Vous pouvez entrer une expression mathématique comme 10 + 5 ou utiliser les boutons affichés à l’écran. Appuyez sur le bouton égal pour voir le résultat. Les opérations disponibles sont +, -, * et /.
-
-Tests:
-Pour executer les tests, lancer la commande python/tests/test.py dans la termianl
+3.Pour executer les tests aller dans le répertoire initial /TP#---LOG3000 , puis exécuter ces commandes:
+% pip install pytest
+% python -m unittest
 
 Contribution:
 Pour contribuer au projet, utilisez Git. Vérifiez d’abord les issues existantes pour voir les tâches ou signaler un problème. Créez ensuite une nouvelle branche pour chaque nouvelle fonctionnalité ou correction. Une fois les changements terminés, envoyez la branche sur le dépôt et ouvrez une pull request vers la branche main. Décrivez clairement vos changements et attendez la révision d’un autre membre de l’équipe avant de fusionner.
