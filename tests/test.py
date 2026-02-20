@@ -17,7 +17,7 @@ class TestApp(unittest.TestCase):
     def test_multiplication(self):
         """Test multiplication"""
         result = calculate("1234567890 * 987654321")
-        self.assertEqual(result, 1234567890*987654321)
+        self.assertEqual(result, 1234567890.0 * 987654321.0)
     
     def test_division(self):
         """Test division operation"""
