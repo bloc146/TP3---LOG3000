@@ -22,7 +22,7 @@ class TestApp(unittest.TestCase):
     def test_division(self):
         """Test division operation"""
         result = calculate("1234567890 / 987654321")
-        self.assertEqual(result, 1234567890//987654321)
+        self.assertEqual(result, 1234567890/987654321)
     
     def test_division_by_zero(self):
         """Test division by zero raises error"""
